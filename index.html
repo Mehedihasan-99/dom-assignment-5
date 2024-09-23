@@ -44,7 +44,7 @@
         <div class="flex flex-col items-center space-y-8">
             <div class="fixed top-32 z-40 text-xl flex justify-center gap-4 bg-white w-full md:container mx-auto px-36">
                 <div class="px-80 mt-20 mb-8">
-                    <button id="show-btn-donate" class="btn text-xl bg-btn-color border-none font-semibold">Donation</button>
+                    <button id="show-btn-donate" class="btn  text-xl bg-btn-color hover:bg-btn-color-light border-none font-semibold">Donation</button>
                     <button id="show-btn-history" class="btn text-xl font-medium">History</button>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                         <div class="flex-1 space-y-8">
                             <button class="btn p-2 border-none bg-clr-primary bg-opacity-5 text-gray-500">
                                 <img src="./assets/coin.png" alt="">
-                                <span>2400</span>
+                                <span id="total-donate-quota-movement">2400</span>
                                 <span>BDT</span>
                             </button>
                             <div  class="space-y-4">
@@ -108,11 +108,15 @@
                             </div>
                         </div>
                         <div class="flex flex-col space-y-4">
-                            <input type="text" placeholder="Write Donation Amount" class="input border-clr-ass border-opacity-40 opacity-40 input-warning w-full" />
-                            <button class="btn bg-btn-color font-medium">Donate Now</button>
+                            <input type="text" placeholder="Write Donation Amount" id="input-donate-quota-movement" class="input border-clr-ass border-opacity-40 opacity-40 input-warning w-full" />
+                            <button id="btn-donate-quota-movement" class="btn bg-btn-color font-medium">Donate Now</button>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <!-- transaction history section  -->
+            <div id="transaction-history-section" class="hidden">
             </div>
         </div>
 
@@ -121,5 +125,6 @@
     <script src="js/features.js"></script>
     <script src="js/donate-noakhali.js"></script>
     <script src="js/donate-feni.js"></script>
+    <script src="js/donate-quota-movement.js"></script>
 </body>
 </html>
