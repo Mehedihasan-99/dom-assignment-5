@@ -1,6 +1,6 @@
-document.getElementById('btn-donate-noakhali')
+document.getElementById('btn-donate-feni')
     .addEventListener('click', function(){
-        const donateInput = getInputValueById('input-donate-noakhali')
+        const donateInput = getInputValueById('input-donate-feni')
 
         if(isNaN(donateInput)){
             alert('Invalid Number');
@@ -16,7 +16,7 @@ document.getElementById('btn-donate-noakhali')
         const newAccountBalance = accountBalance - donateInput;
         document.getElementById('account-balance').innerText = newAccountBalance;
 
-        const donation = getTextValueById('total-donate-noakhali');
+        const donation = getTextValueById('total-donate-feni');
         const newDonation = donation + donateInput;
-        document.getElementById('total-donate-noakhali').innerText = newDonation;
+        document.getElementById('total-donate-feni').innerText = newDonation;
 });
