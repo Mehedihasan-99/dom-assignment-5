@@ -22,7 +22,7 @@ document.getElementById('btn-donate-quota-movement')
 
         // added history 
         const p = document.createElement('p');
-        p.innerText = `Quota Movement: ${donation} Tk. Available Balance: ${newAccountBalance}`;
+        p.innerText = `${donateInput} Taka is Donated for Aid for Injured in the Quota Movement.`;
         
         document.getElementById('transaction-history-section').appendChild(p);
 });
