@@ -15,7 +15,6 @@ document.getElementById('show-btn-donate')
         document.getElementById('show-btn-donate').classList.add('bg-btn-color');
         document.getElementById('transaction-history-section').classList.add('hidden');
         document.getElementById('show-btn-history').classList.remove('bg-btn-color');
-        document.getElementById('show-btn-history').classList.remove('hover');
     });
 
 // for add money btn
