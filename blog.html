@@ -77,7 +77,9 @@
                 <input type="radio" name="my-accordion-2" />
                 <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and Why is it useful ?</div>
                 <div class="collapse-content">
-                  <p>hello</p>
+                  <p class="mb-2">Event Delegation is basically a pattern to handle events efficiently. Instead of adding an event listener to each and every similar element, we can add an event listener to a parent element and call an event on a particular target using the .target property of the event object.</p>
+                  <p class="text-xl">Event Delegation is useful:</p>
+                  <p> Instead of attaching a click handler to each item, event delegation allows you to attach a single listener to the parent container. This results in less code and better performance, especially for large sets of elements. Dynamism: Event delegation is particularly useful when dealing with dynamic content.</p>
                 </div>
             </div>
             <div class="collapse collapse-arrow bg-base-200">
@@ -90,7 +92,6 @@
         </div>
 
     </main>
-    <script src="js/donate.js"></script>
 </body>
 
 </html>
