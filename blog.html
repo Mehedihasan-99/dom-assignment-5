@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
+    <!-- font-awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <!-- daisyui cdn  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -53,7 +55,7 @@
     </header>
     <main class="md:container mx-auto py-5 md:py-40 pt-40 px-2 md:px-36 bg-white">
         <div class="mb-10">
-            <h1 class="text-4xl font-extrabold">Important FAQ </h1>
+            <h1 class="text-4xl font-extrabold">Important FAQ <i class="fa-regular fa-comment"></i> </h1>
 
         </div>
         <div class="flex flex-col items-center relative space-y-2 md:space-y-8">
@@ -61,7 +63,7 @@
                 <input type="radio" name="my-accordion-2" checked="checked" />
                 <div class="collapse-title text-xl font-medium">What is the Document Object Model ( DOM )? </div>
                 <div class="collapse-content">
-                  <p class="text-gray-400">The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page. A web page is a document that can be either displayed in the browser window or as the HTML source. In both cases, it is the same document but the Document Object Model (DOM) representation allows it to be manipulated. As an object-oriented representation of the web page, it can be modified with a scripting language such as JavaScript.</p>
+                  <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page. A web page is a document that can be either displayed in the browser window or as the HTML source. In both cases, it is the same document but the Document Object Model (DOM) representation allows it to be manipulated. As an object-oriented representation of the web page, it can be modified with a scripting language such as JavaScript.</p>
                 </div>
             </div>
             <div class="collapse collapse-arrow bg-base-200">
@@ -85,8 +87,9 @@
             <div class="collapse collapse-arrow bg-base-200">
                 <input type="radio" name="my-accordion-2" />
                 <div class="collapse-title text-xl font-medium">How do you manipulate an element attribute, and style using the DOM ?</div>
-                <div class="collapse-content">
-                  <p>hello</p>
+                <div class="collapse-content space-y-2">
+                  <p>DOM manipulation also extends to modifying the styles of elements, allowing us to create visually appealing and dynamic web pages.</p>
+                  <p>We can use the style property of an element to change its appearance. We can also modify the attributes of existing elements. In addition to modifying existing elements, JavaScript allows us to create new elements and add them to the DOM. The createElement method is used to create a new HTML element.</p>
                 </div>
             </div>
         </div>

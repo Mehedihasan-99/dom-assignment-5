@@ -3,7 +3,7 @@ document.getElementById('btn-donate-noakhali')
         const donateInput = getInputValueById('input-donate-noakhali')
 
         if(isNaN(donateInput)  || donateInput < 0){
-            alert('Invalid Number');
+            alert('Invalid Donated Amount');
             return;
         }
 

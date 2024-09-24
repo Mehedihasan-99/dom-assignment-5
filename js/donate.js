@@ -15,14 +15,3 @@ document.getElementById('show-btn-history')
         document.getElementById('donate-section').classList.add('hidden');
         document.getElementById('show-btn-donate').classList.remove('bg-btn-color');
     });
-
-
-// for show history btn
-document.getElementById('show-btn-blog-page')
-    .addEventListener('click', function(){
-        console.log('clock')
-        // document.getElementById('transaction-history-section').classList.remove('hidden');
-        // document.getElementById('show-btn-history').classList.add('bg-btn-color');
-        // document.getElementById('donate-section').classList.add('hidden');
-        // document.getElementById('show-btn-donate').classList.remove('bg-btn-color');
-    });
